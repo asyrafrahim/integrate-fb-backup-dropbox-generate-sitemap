@@ -53,6 +53,14 @@ return [
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
         ],
 
+        'dropbox' => [
+            'driver' => 'dropbox',
+            // 'key' => env('hvm6jl8ztzftfol'),
+            // 'secret' => env('hvm6jl8ztzftfol'),
+            // 'authorization_token' => env('yBwkLUiCg10AAAAAAAAAAfzIr7-oF-AN0WdEFelm9Uv6dH7KuwtkoiExNLyQl5N_'),
+            'authorization_token' => env('DROPBOX_AUTH_TOKEN'),
+        ],
+
     ],
 
     /*
